@@ -1,6 +1,7 @@
 if (typeof timeCalculatorModal === "undefined") {
   class timeCalculatorModal {
     constructor() {
+      console.log("cokoliv");
       this.scriptModal = document.createElement("div");
       this.createModal();
       this.fillModal();
